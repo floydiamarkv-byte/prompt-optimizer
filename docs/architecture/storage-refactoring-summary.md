@@ -155,7 +155,7 @@ const DIRECT_STORAGE_KEYS = [
    - `packages/core/src/services/template/types.ts` - 简化配置接口
    - `packages/core/src/services/template/manager.ts` - 移除storageKey配置
    - `packages/core/src/services/template/languageService.ts` - 使用PreferenceService
-   - `packages/core/src/services/data/manager.ts` - 简化存储键分类
+   - `packages/core/src/services/DATA/manager.ts` - 简化存储键分类
 
 2. **应用初始化**
    - `packages/ui/src/composables/useAppInitializer.ts` - 更新服务创建

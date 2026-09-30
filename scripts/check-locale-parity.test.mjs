@@ -61,7 +61,7 @@ test('diffLocaleShape reports missing, extra, and type mismatches', () => {
 test('isDirectExecution works with Windows-style script paths', () => {
   assert.equal(
     isDirectExecution(
-      'file:///C:/repo/scripts/check-locale-parity.mjs',
+      'file:///C:/repo/SCRIPTS/check-locale-parity.mjs',
       'C:\\repo\\scripts\\check-locale-parity.mjs'
     ),
     true
@@ -72,7 +72,7 @@ test('toComparableFileUrl normalizes Windows absolute paths for direct-execution
   assert.equal(typeof toComparableFileUrl, 'function')
   assert.equal(
     toComparableFileUrl('C:\\repo\\scripts\\check-locale-parity.mjs'),
-    'file:///C:/repo/scripts/check-locale-parity.mjs'
+    'file:///C:/repo/SCRIPTS/check-locale-parity.mjs'
   )
 })
 

@@ -128,7 +128,7 @@
 4.  **文件**: `packages/core/src/services/history/manager.ts`
     - [x] **删除** (约 L230): `export const historyManager = ...`
 
-5.  **文件**: `packages/core/src/services/data/manager.ts`
+5.  **文件**: `packages/core/src/services/DATA/manager.ts`
     - [x] **删除** (约 L80): `export const dataManager = ...`
     - [x] **修改** (构造函数): `constructor()` -> `constructor(modelManager: IModelManager, templateManager: ITemplateManager, historyManager: IHistoryManager)`
     - [x] **修改** (工厂函数): `createDataManager()` -> `createDataManager(modelManager: IModelManager, templateManager: ITemplateManager, historyManager: IHistoryManager)`

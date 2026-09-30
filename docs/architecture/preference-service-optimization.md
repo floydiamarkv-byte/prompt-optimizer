@@ -191,7 +191,7 @@ describe('批量操作', () => {
 ### 修改的文件
 - `packages/core/src/services/preference/types.ts` - 添加getAll接口
 - `packages/core/src/services/preference/service.ts` - 实现getAll方法
-- `packages/core/src/services/data/manager.ts` - 简化导出逻辑
+- `packages/core/src/services/DATA/manager.ts` - 简化导出逻辑
 - `packages/core/tests/unit/preference/service.test.ts` - 新增测试文件
 
 ### 移除的复杂性

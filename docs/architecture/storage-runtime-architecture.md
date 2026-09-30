@@ -450,7 +450,7 @@ Desktop 主存储没有应用层固定大小上限，但有运行时写盘策略
 
 相关文件：
 
-- `packages/core/src/services/data/manager.ts`
+- `packages/core/src/services/DATA/manager.ts`
 - `packages/core/src/services/preference/service.ts`
 
 ## 🚨 六、当前已经建立的防线

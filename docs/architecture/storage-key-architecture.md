@@ -204,6 +204,6 @@ const LEGACY_KEY_MAPPING: Record<string, string> = {
 
 - **常量定义**: `packages/ui/src/constants/storage-keys.ts`
 - **核心常量**: `packages/core/src/constants/storage-keys.ts`
-- **数据管理**: `packages/core/src/services/data/manager.ts`
+- **数据管理**: `packages/core/src/services/DATA/manager.ts`
 - **偏好服务**: `packages/core/src/services/preference/service.ts`
 - **测试文档**: `docs/testing/ai-automation/storage-key-consistency/`

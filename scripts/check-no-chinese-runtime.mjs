@@ -22,7 +22,7 @@ const ENFORCED_TARGETS = [
   'package.json',
   'packages/ui/package.json',
   'packages/core/src/services/adapters/',
-  'packages/core/src/services/data/',
+  'packages/core/src/services/DATA/',
   'packages/core/src/services/favorite/',
   'packages/core/src/services/storage/dexieStorageProvider.ts',
   'packages/core/src/services/storage/fileStorageProvider.ts',

@@ -19,7 +19,8 @@
   "git": {
     "deploymentEnabled": {
       "main": true,
-      "master": true
+      "master": true,
+      "develop": true
     }
   },
   "build": {
@@ -27,4 +28,4 @@
       "VITE_VERCEL_DEPLOYMENT": "true"
     }
   }
-} 
+}

@@ -141,4 +141,4 @@ browser_snapshot();
 
 - [存储键常量定义](../../../../packages/ui/src/constants/storage-keys.ts)
 - [核心服务存储键](../../../../packages/core/src/constants/storage-keys.ts)
-- [数据管理器实现](../../../../packages/core/src/services/data/manager.ts)
+- [数据管理器实现](../../../../packages/core/src/services/DATA/manager.ts)
