@@ -202,3 +202,11 @@ AGENTS.md
 .codex-run/
 .codex-tmp/
 .trellis/
+
+# Backups locales (añadido 2026-09-30)
+*.bak
+*.bak.*
+*.bak-*
+*.bak_*
+*.orig
+*.rej
